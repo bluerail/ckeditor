@@ -173,8 +173,9 @@ border-radius: 3px;
 .cke_skin_BootstrapCK-Skin div.cke_dialog_ui_input_textarea{
 background-color:white;
 }
-.cke_skin_BootstrapCK-Skin div.cke_disabled .cke_dialog_ui_labeled_content *{
-background-color:#a0a0a0;
+.cke_skin_BootstrapCK-Skin div.cke_disabled .cke_dialog_ui_labeled_content input,
+.cke_skin_BootstrapCK-Skin div.cke_disabled .cke_dialog_ui_labeled_content textarea {
+background-color:#ebebeb;
 cursor:default;
 }
 .cke_skin_BootstrapCK-Skin .cke_rtl .cke_dialog_ui_labeled_content{
